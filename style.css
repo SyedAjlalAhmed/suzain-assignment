@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    overflow-x: hidden;
+}
+
+.h1{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navbar img{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    
+}
+
+.navbar-nav :hover{
+    color: green;
+    text-decoration: line-through;
+    
+}
+
+
+body{
+    background: slategray;
+}
+
+
+.link{
+    
+    width: 100%;
+    height:auto
+   
+}
+
+.link img{
+  
+    width: 370px;
+    height: 350px;
+}
+
+.link2 :hover{
+    color: rgb(6, 112, 6);
+    text-decoration: line-through
+    ;
+    
+}
+
+.spinner{
+    width: 100%;
+    height: 100%;
+  display: flex;
+   justify-content: center;
+}
+
+
+/* ***************************images edit section*************************** */
+
+.img>img {
+    border: 1px solid red;
+}
+
+#images-1>img {
+    width: 290px !important;
+    height: 250px !important;
+}
+
+#images-2>img {
+    width: 215px !important;
+    height: 250px !important;
+}
+
+#images-3>img {
+    width: 165px !important;
+    height: 250px !important;
+}
+
+#images-4>img {
+    width: 290px !important;
+    height: 250px !important;
+}
+
+/*****************************   footer section    ******************************/
+
+.footer-section {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255) !important;
+}
+
+.footer_icon>i {
+    margin-right: 23px;
+    padding: 15px;
+}
